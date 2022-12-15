@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: 600;
+	font-family: "Segoe UI";
+	font-size: 100%;
+	
+}
+.style-nav ul {
+	list-style-type: none;
+	
+	
+}
+
+.style-nav ul li {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+	font-size: 24px
+	
+}
+
+h1 {
+	color: #D5BE22;
+	font-weight: 900;
+	text-align: center;
+	font-family: "Segoe UI";
+	background-image: url(images/Desktop%20ai/Piggy%20Desktop%202@3x.png);
+}
+div {
+	background-image: url(images/Desktop%20ai/Nav%203%20Desktop.svg);
+	height: 979px;
+	color: #FFFFFF;
+	padding-top: 375px;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 29px;
+	background-size: contain;
+}
+
+.Header img {
+}
+h1 {
+	height: 852px;
+	background-image: url(images/Desktop%20ai/Piggy%20Desktop%202@3x.png);
+	background-repeat: no-repeat
+	background-size: contain;
+}
+#gallery {
+	background-image: url(images/Desktop%20ai/Gallery%204%20Desktop@3x.png);
+	height: 1175px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: -343px;
+	font-family: "Segoe UI";
+	font-weight: bolder;
+	font-size: 47px;
+	text-align: center;
+	padding-top: 9px;
+}
+#testi {
+	height: 844px;
+	background-image: url(images/Desktop%20ai/Testi%205%20Desktop@3x.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: -67px;
+	font-family: "Segoe UI";
+	color: #F1F1F1;
+	text-align: center;
+	padding-top: 292px;
+	font-style: italic;
+}
+#team {
+	background-image: url(images/Desktop%20ai/Team%206%20Desktop@3x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 1083px;
+	margin-top: -216px;
+}
+
+#piggy {
+	background-image: url(images/Desktop%20ai/Piggy%20Desktop%202@3x.png);
+	height: 1005px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	text-align: center;
+	margin-top: -15px;
+	padding-top: 240px;
+}
+#contacts {
+	min-height: 880px;
+	background-image: url(images/Desktop%20ai/Contacts%207%20Desktop@3x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: -288px;
+}
+#footer {
+	background-image: url(url);
+	font-family: "Segoe UI";
+	font-style: normal;
+	text-align: right;
+	float: right;
+	padding-top: 0px;
+}
+body footer {
+	float: right;
+	padding-top: 0px;
+	margin-top: -282px;
+}
+
+h2 {
+	font-family: "Segoe UI";
+	padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+.style-nav ul li {
+}
+h1 {
+	font-size: 60px;
+	font-weight: 730;
+}
+#piggy {
+	background-image: url(images/Desktop%20ai/Piggy%20Desktop%202@3x.png);
+	height: 978px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	margin-top: -5px;
+	padding-top: 134px;
+}
+#navbar2 {
+	margin-top: -550px;
+	padding-top: 152px;
+	font-size: 17px;
+}
+#gallery {
+	margin-top: -728px;
+	font-size: 30px;
+	font-weight: 800;
+}
+#testi {
+	margin-top: -538px;
+	padding-top: 145px;	
+}
+#team {
+	margin-top: -516px;
+}
+#contacts {
+	margin-top: -547px;
+}
+#footer {
+	margin-top: -542px;
+}
+body footer {
+	margin-top: -548px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+}
+
+.style-nav ul li {
+     display: inline-block;		
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+
+/*Mobile View*/
+@media (max-width: 400px){
+pensionline {
+	font-size: 8px;
+	font-weight: lighter;
+}
+h1 {
+	font-size: 19px;
+	text-align: center;
+	font-weight: normal;
+}
+#piggy {
+	margin-top: -4px;
+	padding-top: 68px;
+	font-size: 15px;
+}
+#navbar2 {
+	margin-top: -791px;
+	padding-top: 77px;
+	font-size: 11px;
+}
+#team {
+	margin-top: -675px;
+}
+#gallery {
+	margin-top: -849px;
+	padding-top: 0px;
+	font-size: 16px;
+}
+#testi {
+	margin-top: -738px;
+	font-size: 0px;
+	padding-top: 75px;
+}
+#contacts {
+	margin-top: -693px;
+	font-size: 0px;
+}
+#footer {
+	margin-top: -700px;
+	font-size: 12px;
+}
+body footer {
+	padding-top: 0px;
+	margin-top: -702px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.style-nav ul li {
+     display: inline-block;		
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
